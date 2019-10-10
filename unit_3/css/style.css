@@ -3,7 +3,7 @@ body {
     font-family: Inter, Helvetica, sans-serif;
   }
 .hero-image {
-  background-image: url("unit_3/images/hero-1.png" alt="Red Square Moscow");
+  background-image: url("images/hero-1.png" alt="Red Square Moscow");
   background-color: #fff;
   height: 600px;
   background-position: center;
