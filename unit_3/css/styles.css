@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Inter, Helvetica, sans-serif;
+  }
+.hero-image {
+  background-image: url("https://dzwonsemrish7.cloudfront.net/items/1R2S0Z29343q2c1h2p3o/hero-1.png");
+  background-color: #fff;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+h1 {
+  color: #fff;
+  font-size:52px;
+}
+h2 {
+  color: #fff;
+}
+
+p {
+  color: #000;
+  font-size:18px;
+  line-height:27px;
+}
+button {
+  background-color:#d71536;
+  border:none;
+  border-radius:5px;
+  color:#fff;
+  font-size:16px;
+  padding:15px;
+}
+ul li {
+  font-size:18px;
+}
