@@ -42,6 +42,11 @@ button {
   padding:15px;
 }
 
+a {
+  color:#fff;
+  text-decoration:none;
+}
+
 ul li {
   font-size:18px;
 }
