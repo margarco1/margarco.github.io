@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+  }
+.hero-image {
+  background-image: url("https://dzwonsemrish7.cloudfront.net/items/1R2S0Z29343q2c1h2p3o/hero-1.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  font-weight:none;
+  margin:2.5em;
+}
+
+.top-cta{
+  background-color:#d71536;
+  border:none;
+  border-radius:5px;
+  color:#fff;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  padding:15px;
+  display: inline-block;
+  position: relative;
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  font-weight:800;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+}
+
+p {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  line-height:1.5em;
+  margin:2.5em;
+}
+
+button {
+  background-color:#d71536;
+  border:none;
+  border-radius:5px;
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  padding:15px;
+  margin:2.5em;
+}
+
+a {
+  font-family:'Roboto', sans-serif;
+  color:#fff;
+  text-decoration:none;
+}
+
+ul li {
+  font-family:'Roboto', sans-serif;
+  font-size:18px;
+  line-height:0.25em;
+  margin:1.5em;
+}
