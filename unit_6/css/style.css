@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+  }
+
+p {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  font-weight: 100;
+  line-height:1.5em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d71536;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #A40003;
+}
+
+.active {
+  background-color: #F12F50;
+}
+
+.hero-image {
+  background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  font-weight:none;
+  margin:2.5em;
+}
+
+.top-cta {
+  background-color:#d71536;
+  border:none;
+  border-radius:5px;
+  color:#fff;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  padding:15px;
+  display: inline-block;
+  position: relative;
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  font-weight:800;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height:1.5em;
+}
+
+.lp-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  text-align: center;
+}
+
+.section-title {
+  color: #000;
+  font-weight: 100;
+  margin:1.5em;
+  font-weight: 800;
+}
+
+section {
+  border: #ffffff;
+  padding: 5px;
+}
+
+#two {
+  background-color: #05051c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1px;
+  margin: 2em;
+}
+
+.lp-button {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color:#d71536;
+  border: 2px solid #d71536;
+  border-radius:5px;
+  color:#fff;
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+a {
+  color: #fff;
+  text-decoration:none;
+}
+
+ul li {
+  font-family:'Roboto', sans-serif;
+  font-size:18px;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  text-align: center;
+}
+
+.footer-menu {
+  background-color: #333333;
+}
