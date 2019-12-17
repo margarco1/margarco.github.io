@@ -89,7 +89,7 @@ li a:hover:not(.active) {
   background: rgb(176, 0, 35);
   background: rgba(176, 0, 35, 0.70);
   width: 100%;
-  margin: 7em 0;
+  margin: 9em 0;
 }
 
 .container .hero-link {
