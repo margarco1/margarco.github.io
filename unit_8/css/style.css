@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+.moskva, .piter, .kamchatka {
+  font-size: 1.1em;
+}
+
+a {
+  font-size:1.10em;
+  text-decoration: none;
+}
+
+.button {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 40px;
+    padding: 15px 30px;
+    text-align: center;
+    white-space: nowrap;
+    background: #B00023;
+    border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B00023;
+  height: 70px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  height: 70px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #b71938;
+}
+
+.active {
+  background-color: #F12F50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;}
+
+.container .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgb(176, 0, 35);
+  background: rgba(176, 0, 35, 0.70);
+  width: 100%;
+  margin: 7em 0;
+}
+
+.container .hero-link {
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  color:#f7f7f7;
+  text-decoration: underline;
+  padding: 10px 0 0 50px;
+}
+
+h1 {
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: left;
+  padding: 10px 0 25px 50px;
+}
+
+.hero {
+  padding: 10px 0 0 50px;
+}
+
+h2 {
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75em;
+  line-height: 1em;
+  font-weight: normal;
+  text-align: left;
+  padding: 10px 0 25px 50px;
+}
+
+.sub {
+  padding: 10px 0 0 50px;
+}
+
+.plan {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.explore {
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+h3 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+#section-one {
+  padding: 0.5em 1.5em;
+}
+
+#section-two {
+  background-color: #05051c;
+  padding: 0.5em 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #ffffff;
+  padding: 1px;
+  margin: .75em;
+}
+
+ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  text-align: center;
+}
+
+.footer-menu {
+  background-color: #222222;
+}
