@@ -21,6 +21,7 @@ p {
 a {
   font-size:1.10em;
   text-decoration: none;
+  color: #ffffff;
 }
 
 .button {
@@ -66,32 +67,41 @@ li a:hover:not(.active) {
   background-color: #F12F50;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.img {
+.hero-image {
+  background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;}
-
-.container .content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.50);
-  width: 100%;
-  margin: 15em 0;
+  position: relative;
 }
 
-.container .hero-link {
-  font-size: 1.25em;
-  font-family: 'Montserrat', sans-serif;
-  color:#f7f7f7;
-  text-decoration: underline;
-  padding: 10px 0 0 50px;
+.hero-image {
+  background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  font-weight:none;
+  margin: 50px 0 0 50px;
+}
+
+.top-cta {
+  background-color:#d71536;
+  border:none;
+  border-radius:5px;
+  color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  padding:15px;
+  display: inline-block;
+  position: relative;
 }
 
 h1 {
@@ -101,11 +111,6 @@ h1 {
   font-weight: bold;
   line-height: 1em;
   text-align: left;
-  padding: 10px 0 25px 50px;
-}
-
-.hero {
-  padding: 10px 0 0 50px;
 }
 
 h2 {
@@ -115,11 +120,6 @@ h2 {
   line-height: 1em;
   font-weight: normal;
   text-align: left;
-  padding: 10px 0 25px 50px;
-}
-
-.sub {
-  padding: 10px 0 0 50px;
 }
 
 .plan {
