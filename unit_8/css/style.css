@@ -70,13 +70,7 @@ li a:hover:not(.active) {
   box-sizing: border-box;
 }
 
-.container {
-  position: relative;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.container img {
+.img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,10 +80,10 @@ li a:hover:not(.active) {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: rgb(176, 0, 35);
-  background: rgba(176, 0, 35, 0.70);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.50);
   width: 100%;
-  margin: 9em 0;
+  margin: 15em 0;
 }
 
 .container .hero-link {
@@ -217,18 +211,17 @@ ul li {
   background-color: #222222;
 }
 @media only screen and (max-width: 480px) {
-  ul {
+  h1, ul {
     display: block;
     text-align: center;
-    margin: 1.8em .6em 0;
   }
   
-  h1, h2 {
+  h2 {
     font-size: 1em;
     display: inline;
   }
   
-  p {
+  p, ul {
     margin: 1.8em .6em 0;
   }
   
@@ -253,7 +246,7 @@ ul li {
     padding: .6em;
   }
   
-  .footer-menu {
+  #services {
     float: none;
     font-size: 1.4em;
   }
