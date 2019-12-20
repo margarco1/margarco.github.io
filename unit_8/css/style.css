@@ -7,13 +7,15 @@
 }
 
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+  background-color: #B00023;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  
   }
 
 header {
   display: block;
-  width: 100%
+  width: 100%;
   background-color: #B00023;
 }
 
@@ -27,6 +29,7 @@ nav {
   font-size: .8em;
   color: #ffffff;
   text-decoration: none;
+  background-color: #B00023;
 }
 
 p {
@@ -68,7 +71,7 @@ a {
 
 .hero-image {
   background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
-  height: 600px;
+  height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +103,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 4.5em;
   text-align: left;
 }
 
@@ -108,7 +111,7 @@ h2 {
   color: #f7f7f7;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.75em;
-  line-height: 1.5em;
+  line-height: 2.625em;
   font-weight: normal;
   text-align: left;
 }
@@ -131,7 +134,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   text-align: center;
-  line-height: 1.5em;
+  line-height: 2.25em;
   font-weight: bold;
 }
 
@@ -192,24 +195,12 @@ h3 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
+@media screen and (max-width: 480px) {
 
-ul li {
+nav {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-}
-
-#social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 2em;
-  text-align: center;
+  float: left;
+  margin: 0 1.8em;
 }
 
 .footer-menu {
@@ -220,11 +211,6 @@ ul li {
     float: none;
     text-align: center;
     margin: 1.8em .6em 0;
-  }
-  
-  .responsive {
-    max-width: 100%;
-    height: auto;
   }
   
   h1 {
@@ -247,14 +233,6 @@ ul li {
   
   p {
     margin: 1.8em .6em 0;
-  }
-  
-  li {
-    width: 80%;
-    outline-width: .5em;
-    padding: .5em;
-    height: 2em;
-    line-height: 2em;
   }
  
 }
