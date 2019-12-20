@@ -152,7 +152,10 @@ h3 {
 #section-two {
   background-color: #05051c;
   padding: 0.5em 1.5em;
+  overflow: hidden;
 }
+
+.
 
 * {
   box-sizing: border-box;
