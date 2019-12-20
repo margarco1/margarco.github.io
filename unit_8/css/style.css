@@ -154,10 +154,6 @@ h3 {
   padding: 0.5em 1.5em;
 }
 
-#section-two div {
-  min-height: 200px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -168,13 +164,13 @@ h3 {
   margin: auto;
 }
 
-.row {
+.row container flex-direction {
   margin: 8px -16px;
 }
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
+.row container flex-direction,
+.row container flex-direction > .column {
   padding: 8px;
 }
 
@@ -215,7 +211,7 @@ ul li {
 .footer-menu {
   background-color: #222222;
 }
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   ul {
     display: block;
     text-align: center;
@@ -265,26 +261,20 @@ ul li {
     width: 230px;
   }
   
-  div {
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;
-    width: auto;
+  @media screen and (max-width: 480px) {
+  .flex-direction{
+  flex-direction:column;
   }
   
-  @media screen and (max-width: 400px) {
-   #row, #column, #content { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;
+  .column {
+  width:33%;
+  height:auto;
+  }
+  .content {
+  width: 33%;
+  height: auto;
+  font-size: 0.5em;
+  line-height: 0.75em;
+    }
 }
-  
-  #services {
-    float: none;
-    font-size: 1.4em;
-  }
 }
