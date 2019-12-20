@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;}
+
+  body {
+    background-color: #f8fdff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px; 
+    line-height: 1.5;
+    font-weight: normal;
+    color: #00004D;
+  }
+
+h3 {
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0 0 25px 10px;
+}
+
+p
+{
+  color: #000000;
+  text-align: center;
+  font-size: .85em;
+}
+
+  header{
+    display: block;
+    width: 100%;
+    background-color: #b00023;
+  }
+
+  nav {
+    float: left;
+    padding: 0 50px 0 50px;
+  }
+
+  .nav-links-top {
+    padding: 0 .5em;
+    font-size: .8em;
+    color:#ffffff;
+    text-decoration:none;
+  }
+
+  .hero-image{
+    background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text{
+    display: block;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    margin: 50px 0 0 50px;
+  }
+
+  #headline {
+    font-size: 2.25em;
+    line-height: 2.25em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+#sub-headline {
+    font-size: 1.25em;
+    margin-bottom: 1.875em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+  button {
+    background-color: #b00023;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: normal;
+  }
+
+  #main {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+  }
+
+  #plan {
+    text-align: center;
+    margin: 0 2em 1.5em 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  #plan-text {
+    text-align: center;
+    margin: 0 2em 1.5em 2em;
+    font-size: 1em;
+    font-weight: normal;
+    color: #000000;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row container flex-direction {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row container flex-direction,
+.row container flex-direction > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #f7f7f7;
+  padding: 1px;
+  margin: .80em;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+  footer {
+    width: 100%;
+    padding: 0 50px 0 50px;
+    float: left;
+    background-color: #222222; 
+    text-align: left;  
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .nav-bottom-style {
+    text-align: left;
+    padding: .5em .5em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .nav-links-bottom-style {
+    padding: 0 2em;
+    font-size: .8em;
+    color:#ffffff;
+    text-decoration:none;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  @media only screen and (max-width: 800px) {
+    nav {
+      float: left;
+      margin: 0 1.8em;
+    }
+    #headline {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    button {
+      margin-top: .3em;
+      padding: 1em 2em;
+      font-size: .8em;
+      font-weight: 500;
+    }
+    #sub-headline {
+      margin: 0 .5em 1em .5em;
+      font-size: 1em;
+      font-weight: 500;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+      float: left;
+      text-align: left;
+    }
+    .nav-links-top {
+      font-size: .7em;
+      display: block;
+      padding: .4em 0;
+    }
+    .hero-image{
+     height: auto;
+     background-image: url(https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png);
+   }
+   .row,.hero-text{
+    flex-flow: column;
+   }
+   .hero-text {
+     padding: 2em 0 0 2em;
+   }
+   #headline {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  button {
+    padding: 1em 2em;
+    font-size: .7em;
+    font-weight: 500;
+  }
+  #main {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #sub-headline {
+    margin: 0 .5em .5em .5em;
+    font-size: .8em;
+    font-weight: 500;
+  }
+  footer {
+    padding: 0 50px 0 50px;
+  }
+  .nav-links-bottom-style {
+    font-size: .7em;
+    display: block;
+    padding: .4em 0;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  #headline {
+    margin-right: .5em;
+  }
+  button {
+      margin-top: .1em;
+  }
+}
