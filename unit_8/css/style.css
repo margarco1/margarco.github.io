@@ -227,7 +227,7 @@ ul li {
 }
 @media screen and (max-width: 480px) {
   ul {
-    display: block;
+    float: none;
     text-align: center;
     margin: 1.8em .6em 0;
   }
@@ -260,15 +260,12 @@ ul li {
   }
   
   li {
+    margin: 0 1.6em .75em 0;
     width: 80%;
     outline-width: .5em;
     padding: .5em;
     height: 2em;
     line-height: 2em;
-  }
-  
-  nav a {
-    margin: 0 .25em;
   }
  
 }
