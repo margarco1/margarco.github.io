@@ -194,6 +194,20 @@ h3 {
   margin: .75em;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 ul li {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -254,27 +268,7 @@ ul li {
   }
   
   nav a {
-    margin: 0 1em 1em;
+    margin: 0 .25em;
   }
-  
-  img {
-    width: 230px;
-  }
-  
-  @media screen and (max-width: 480px) {
-  .flex-direction{
-  flex-direction:column;
-  }
-  
-  .column {
-  width:33%;
-  height:auto;
-  }
-  .content {
-  width: 33%;
-  height: auto;
-  font-size: 0.5em;
-  line-height: 0.75em;
-    }
-}
+ 
 }
