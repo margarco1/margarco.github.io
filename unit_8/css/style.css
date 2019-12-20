@@ -224,14 +224,20 @@ ul li {
   }
   
   h1 {
-    font-size: 0.75em;
-    line-height: 1.5em;
+    font-size: 0.5em;
+    line-height: 0.75em;
     display: block;
   }
   
   h2 {
-    font-size: 0.75em;
-    line-height: 1.5em;
+    font-size: 0.25em;
+    line-height: 0.375em;
+    display: inline;
+  }
+  
+  .plan {
+    font-size: 0.25em;
+    line-height: 0.375em;
     display: inline;
   }
   
@@ -255,9 +261,13 @@ ul li {
     width: 230px;
   }
   
-  section, div {
-    width: 100%;
-    padding: .6em;
+  div {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;  
+    width: auto;
   }
   
   #services {
