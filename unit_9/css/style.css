@@ -227,10 +227,6 @@ p
       display: block;
       padding: .4em 0;
     }
-    .hero-image{
-     height: 500px;
-     background-image: url(https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png);
-   }
    .row,.hero-text{
     flex-flow: column;
    }
