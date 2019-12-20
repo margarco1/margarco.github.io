@@ -17,28 +17,23 @@
   header{
     display: block;
     width: 100%;
-    background-color: #b2d7e6;
+    background-color: #b00023;
   }
-#logo {
-  max-width: 250px;
-  float:left;
-  padding: 1em 0 1em 1em;
-} 
 
   nav {
-    float: right;
+    float: left;
     margin: 2.1em 2em 0 0;
   }
 
   .nav-links-top {
     padding: 0 .5em;
     font-size: .8em;
-    color:#00004D;
+    color:#ffffff;
     text-decoration:none;
   }
 
   .hero-image{
-    background-image: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.2)), url(https://res.cloudinary.com/rocketmiles/image/upload/v1575525922/social/viajes-hero-img.png);
+    background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,80 +43,119 @@
 
   .hero-text{
     display: block;
-    padding: 5.5em 0 0 2.5em;
+    text-align: left;
+    position: absolute;
+    font-weight: bold;
+    margin: 50px 0 0 50px;
   }
 
   #headline {
-    font-size: 1.4em;
-    font-weight: 700;
-    margin-bottom: .5em;
+    font-size: 1.5em;
+    font-weight: bold;
   } 
 
   button {
-    background-color: #FFCE3B;
+    background-color: #b00023;
     padding: 1em 2em;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: .9em;
-    font-weight: 600;
+    font-weight: normal;
   }
 
   #main {
     margin-top: 2.5em;
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
   }
 
-  #subhead {
+  #plan {
     text-align: center;
     margin: 0 2em 1.5em 2em;
-    font-size: 1.1em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
   }
 
-  .row {
-    display: flex;
+  #plan-text {
     text-align: center;
-    padding: 0 20px;
-
+    margin: 0 2em 1.5em 2em;
+    font-size: 1em;
+    font-weight: normal;
+    color: #000000;
   }
 
-  .row img {
-    width: 95%;
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row container flex-direction {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row container flex-direction,
+.row container flex-direction > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #ffffff;
+  padding: 1px;
+  margin: .75em;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
   }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
   footer {
     width: 100%;
     padding: 1.5em 0 2em 0;
-    background-color: #B2D7E6; 
+    background-color: #6d6d6d; 
     text-align: center;  
-  }
-
-  #footer-copy {
-    font-weight: 600;
-    margin-bottom: 1.2em;
   }
 
   .nav-links-bottom {
     text-align: center;
     margin: 0 auto .2em;
+    color: #ffffff;
   }
 
   .nav-links-bottom-style {
     padding: 0 2em;
     font-size: .8em;
-    color:#00004D;
+    color:#ffffff;
     text-decoration:none;
-  }
-
-  .social-links {
-    display: inline;
-    margin: 0 auto;
-  }
-
-  .social-icons {
-
-    margin: 1.7em 1em 1.4em 1em;
-    max-width: 45px;
   }
 
   .clearfix:after {
@@ -131,10 +165,6 @@
   }
 
   @media only screen and (max-width: 800px) {
-     #logo {
-       width: 27%;
-       margin-left: 1em;
-    }
     nav {
       float: left;
       margin: 0 1.8em;
@@ -149,21 +179,14 @@
       font-size: .8em;
       font-weight: 500;
     }
-    #subhead {
+    #sub-headline {
       margin: 0 .5em 1em .5em;
       font-size: 1em;
       font-weight: 500;
     }
-    #footer-copy {
-    font-size: .9em;
-    }
   }
 
   @media only screen and (max-width: 600px) {
-    #logo {
-       width: 35%;
-       margin-left: 1em;
-    }
     nav {
       float: right;
       text-align: left;
@@ -175,7 +198,7 @@
     }
     .hero-image{
      height: 200px;
-     background-image: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.5)), url(https://res.cloudinary.com/rocketmiles/image/upload/v1570682876/social/jeremy-perret-4rV-j4yPvs8-unsplash.jpg);
+     background-image: url(https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png);
    }
    .row,.hero-text{
     flex-flow: column;
@@ -197,31 +220,18 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  #subhead {
+  #sub-headline {
     margin: 0 .5em .5em .5em;
     font-size: .8em;
     font-weight: 500;
   }
-  .row img {
-    width: 50%;
-    margin-top: .5em;
-  }
   footer {
     padding: 1em 0 1em 0;  
-  }
-  #footer-copy {
-    font-size: .8em;
-    font-weight: 500;
-    margin-bottom: .5em;
   }
   .nav-links-bottom-style {
     font-size: .7em;
     display: block;
     padding: .4em 0;
-  }
-  .social-icons {
-    margin: 1em 1.4em 1em 1.4em;
-    max-width: 40px;
   }
 }
 
