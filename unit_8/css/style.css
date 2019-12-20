@@ -1,238 +1,236 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 *{
-  margin: 0;
+  margin:0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
 
-body {
-  background-color: #B00023;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  
+  body {
+    background-color: #f8fdff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px; 
+    line-height: 1.5;
+    font-weight: normal;
+    color: #00004D;
   }
 
-header {
-  display: block;
-  width: 100%;
-  background-color: #B00023;
-}
-
-nav {
-  float: right;
-  margin: 2.1em 2em 0 0;
-}
-
-.nav-top {
-  padding: 0 .5em;
-  font-size: .8em;
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #B00023;
-}
-
-p {
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  text-align: center;
-  line-height: 1.5em;
-  font-weight: normal;
-}
-
-.moskva, .piter, .kamchatka {
-  font-size: 1.1em;
-}
-
-a {
-  font-size:1.10em;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.button {
-    -webkit-appearance: none;
-    box-sizing: border-box;
-    color: #ffffff;
-    display: inline-block;
-    line-height: 40px;
-    padding: 15px 30px;
-    text-align: center;
-    white-space: nowrap;
-    background: #B00023;
-    border-radius: 4px;
-}
-
-.active {
-  background-color: #F12F50;
-}
-
-.hero-image {
-  background-image: url("https://dzwonsemrish7.cloudfront.net/items/1X2O1B401k3i050b3l3n/hero-bg.png");
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  display: block;
-  text-align: left;
-  position: absolute;
-  font-weight: none;
-  margin: 50px 0 0 50px;
-}
-
-.top-cta {
-  background-color:#d71536;
-  border:none;
-  border-radius:5px;
-  color:#ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size:16px;
-  padding:15px;
-  display: inline-block;
-  position: relative;
-}
-
-h1 {
-  color: #f7f7f7;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  font-weight: bold;
-  line-height: 4.5em;
-  text-align: left;
-}
-
-h2 {
-  color: #f7f7f7;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.75em;
-  line-height: 2.625em;
-  font-weight: normal;
-  text-align: left;
-}
-
-.plan {
-  color: #000000;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.5em;
-}
-
-.explore {
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.5em;
-}
-
-h3 {
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  text-align: center;
-  line-height: 2.25em;
-  font-weight: bold;
-}
-
-#section-one {
-  padding: 0.5em 1.5em;
-}
-
-#section-two {
-  background-color: #05051c;
-  padding: 0.5em 1.5em;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Center website */
-.main {
-  max-width: 100%;
-  margin: auto;
-}
-
-.row container flex-direction {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row container flex-direction,
-.row container flex-direction > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: #ffffff;
-  padding: 1px;
-  margin: .75em;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 480px) {
-
-nav {
-  font-family: 'Montserrat', sans-serif;
-  float: left;
-  margin: 0 1.8em;
-}
-
-.footer-menu {
-  background-color: #222222;
-}
-@media screen and (max-width: 480px) {
-  ul {
-    float: none;
-    text-align: center;
-    margin: 1.8em .6em 0;
-  }
-  
-  h1 {
-    font-size: 0.5em;
-    line-height: 0.75em;
+  header{
     display: block;
+    width: 100%;
+    background-color: #b2d7e6;
   }
-  
-  h2 {
-    font-size: 0.25em;
-    line-height: 0.375em;
+#logo {
+  max-width: 250px;
+  float:left;
+  padding: 1em 0 1em 1em;
+} 
+
+  nav {
+    float: right;
+    margin: 2.1em 2em 0 0;
+  }
+
+  .nav-links-top {
+    padding: 0 .5em;
+    font-size: .8em;
+    color:#00004D;
+    text-decoration:none;
+  }
+
+  .hero-image{
+    background-image: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.2)), url(https://res.cloudinary.com/rocketmiles/image/upload/v1575525922/social/viajes-hero-img.png);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text{
+    display: block;
+    padding: 5.5em 0 0 2.5em;
+  }
+
+  #headline {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: .5em;
+  } 
+
+  button {
+    background-color: #FFCE3B;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    font-size: .9em;
+    font-weight: 600;
+  }
+
+  #main {
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+  }
+
+  #subhead {
+    text-align: center;
+    margin: 0 2em 1.5em 2em;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+
+  .row {
+    display: flex;
+    text-align: center;
+    padding: 0 20px;
+
+  }
+
+  .row img {
+    width: 95%;
+  }
+
+  footer {
+    width: 100%;
+    padding: 1.5em 0 2em 0;
+    background-color: #B2D7E6; 
+    text-align: center;  
+  }
+
+  #footer-copy {
+    font-weight: 600;
+    margin-bottom: 1.2em;
+  }
+
+  .nav-links-bottom {
+    text-align: center;
+    margin: 0 auto .2em;
+  }
+
+  .nav-links-bottom-style {
+    padding: 0 2em;
+    font-size: .8em;
+    color:#00004D;
+    text-decoration:none;
+  }
+
+  .social-links {
     display: inline;
+    margin: 0 auto;
   }
-  
-  .plan {
-    font-size: 0.25em;
-    line-height: 0.375em;
-    display: inline;
+
+  .social-icons {
+
+    margin: 1.7em 1em 1.4em 1em;
+    max-width: 45px;
   }
-  
-  p {
-    margin: 1.8em .6em 0;
+
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
   }
- 
+
+  @media only screen and (max-width: 800px) {
+     #logo {
+       width: 27%;
+       margin-left: 1em;
+    }
+    nav {
+      float: left;
+      margin: 0 1.8em;
+    }
+    #headline {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    button {
+      margin-top: .3em;
+      padding: 1em 2em;
+      font-size: .8em;
+      font-weight: 500;
+    }
+    #subhead {
+      margin: 0 .5em 1em .5em;
+      font-size: 1em;
+      font-weight: 500;
+    }
+    #footer-copy {
+    font-size: .9em;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #logo {
+       width: 35%;
+       margin-left: 1em;
+    }
+    nav {
+      float: right;
+      text-align: left;
+    }
+    .nav-links-top {
+      font-size: .7em;
+      display: block;
+      padding: .4em 0;
+    }
+    .hero-image{
+     height: 200px;
+     background-image: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.5)), url(https://res.cloudinary.com/rocketmiles/image/upload/v1570682876/social/jeremy-perret-4rV-j4yPvs8-unsplash.jpg);
+   }
+   .row,.hero-text{
+    flex-flow: column;
+   }
+   .hero-text {
+     padding: 2em 0 0 2em;
+   }
+   #headline {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  button {
+    padding: 1em 2em;
+    font-size: .7em;
+    font-weight: 500;
+  }
+  #main {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #subhead {
+    margin: 0 .5em .5em .5em;
+    font-size: .8em;
+    font-weight: 500;
+  }
+  .row img {
+    width: 50%;
+    margin-top: .5em;
+  }
+  footer {
+    padding: 1em 0 1em 0;  
+  }
+  #footer-copy {
+    font-size: .8em;
+    font-weight: 500;
+    margin-bottom: .5em;
+  }
+  .nav-links-bottom-style {
+    font-size: .7em;
+    display: block;
+    padding: .4em 0;
+  }
+  .social-icons {
+    margin: 1em 1.4em 1em 1.4em;
+    max-width: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  #headline {
+    margin-right: .5em;
+  }
+  button {
+      margin-top: .1em;
+  }
 }
