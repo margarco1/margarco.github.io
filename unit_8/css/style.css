@@ -152,10 +152,11 @@ h3 {
 #section-two {
   background-color: #05051c;
   padding: 0.5em 1.5em;
-  overflow: hidden;
 }
 
-.
+#section-two div {
+  min-height: 200px;
+}
 
 * {
   box-sizing: border-box;
@@ -269,9 +270,18 @@ ul li {
     margin-right:0;
     width:auto;
     border:0;
-    border-bottom:2px solid #000;  
+    border-bottom:2px solid #000;
     width: auto;
   }
+  
+  @media screen and (max-width: 400px) {
+   #row, #column, #content { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;
+}
   
   #services {
     float: none;
